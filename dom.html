@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div id="el">Heloo</div>
+    <div id="container"></div>
+    <button id="mybutton">Click here</button>
+
+    <script>
+        const el = document.getElementById("el");
+        const ul_el = document.createElement("ul");
+        el.appendChild(ul_el);
+
+        const number = [1, 2, 3, 4];
+
+        for (const num of number) {
+            const li_el = document.createElement("li");
+            li_el.innerText = num;
+            ul_el.appendChild(li_el);
+
+        const mmbutton = document.getElementById("mybutton");
+        mmbutton.addEventListener('click',function(){
+            el.style.background = "pink";
+        })
+
+        }
+
+       
+
+    
+    </script>
+
+</body>
+
+</html>

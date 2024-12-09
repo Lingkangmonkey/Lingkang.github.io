@@ -1,0 +1,65 @@
+.box-set {
+
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.NEXTGEN {
+    font-size: 25px;
+    background-color: black;
+    color: aliceblue;
+    margin: 1px;
+    width: 50vw;
+}
+
+.box {
+
+    background-color: rgb(34, 0, 255);
+    width: 20px;
+    height: 4.5px;
+    margin: 2px;
+    font-size: 0.1px;
+}
+
+.flex-container1{
+
+    display: flex;
+    flex-direction: row;
+    text-size-adjust: 20px;
+    flex-direction: column;
+    
+}
+
+.flex-container2{
+
+    display: flex;
+    flex-direction: row;
+    text-size-adjust: 20px;
+    
+    
+}
+
+.flex-item1{
+
+    background-color:orange;
+    height: 50vw;
+    width:50vw;
+    
+}
+
+.flex-item2{
+
+    background-color:pink;
+    height: 50vw;
+    width:50vw;
+    
+}
+
+
+
+body {
+
+    margin: 2px;
+    padding: 0px;
+}

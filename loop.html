@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="el">Hello World</div>
+
+    <div id="container">Hello World</div>
+
+    <script>
+
+        const arr = [1,2,3,4,5,6,7,8,9,10];
+        const li_arr = []
+
+        const container = document.getElementById("container");
+
+        const ul_el = document.createElement("ul");
+        container.appendChild(ul_el);
+
+        for (const item of arr){
+            const li_el = document.createElement("li");
+            li_el.innerText = item;
+            ul_el.appendChild(li_el);
+            li_arr.push(li_el)
+        }
+
+        console.log(li_arr);
+
+    </script>
+    
+</body>
+</html>

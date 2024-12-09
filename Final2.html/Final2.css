@@ -1,0 +1,137 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #52484d;
+  background-color: #f8f3ff;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.highlight {
+
+  font-size: 30px;
+}
+
+
+.haha {
+  width: 25%;
+  background-color: #3d3034;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.haha .name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.haha .role {
+  font-size: 30px;
+  margin: 2px 0;
+}
+
+.haha .Email  {
+  font-size: 20px;
+  margin: 25px 0;
+  
+}
+
+.haha .number  {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.dance {
+
+  margin: 20px 0;
+
+}
+
+.main {
+  width: 75%;
+  padding: 20px;
+}
+
+
+.me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.me .intro {
+  max-width: 50%;
+
+}
+
+.me .highlight {
+  color: #fa92aa;
+  font-weight: bold;
+}
+
+.me img {
+  max-width: 40%;
+  border-radius: 10px;
+}
+
+.services {
+
+display: grid;
+grid-template-columns:1fr 1fr;
+}
+
+.idk {
+
+margin: 0px; 
+padding: 10px;
+}
+
+.skill {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 40px;
+  background-color: #f0eaf5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.skill:hover {
+
+  background-color: #fa92aa;
+  color: #f0eaf5;
+}
+
+.skill  {
+
+  margin-bottom: 10px;
+  color: #3d3034;
+ 
+}
+
+
+.portfolio .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.portfolio .grid img {
+  width: 100%;
+  border-radius: 10px;
+}

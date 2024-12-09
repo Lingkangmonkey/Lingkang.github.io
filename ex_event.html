@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="el">My information</div>
+
+        <script>
+        
+        const el = document.getElementById("el");
+        const uul = document.createElement("ul");
+        el.appendChild(uul);
+
+            const list = ["ขาหมู","ก๋วยเตี๋ยว","ไก่ย่าง","หมูกรอบ"];
+
+
+            for (const mylist of list) {
+                const kao = document.createElement("kao");
+                kao.innerText = mylist;
+                uul.appendChild(kao);
+            }
+            
+    
+        </script>
+
+    
+</body>
+</html>
